@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Microlead - Filtrer une galerie Javascript</title>
+  </head>
+
+  <body>
+    <h1>Microlead - Filtrer une galerie Javascript</h1>
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">Tout</button>
+      <button class="btn" onclick="filterSelection('voiture')">Voitures</button>
+      <button class="btn" onclick="filterSelection('moto')">Motos</button>
+    </div>
+
+    <div class="row">
+      <div class="column voiture">
+        <div class="content">
+          <img src="./assets/voiture-1.jpg" alt="voiture" style="width: 100%" />
+          <h4>Voiture 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+
+      <div class="column voiture">
+        <div class="content">
+          <img src="./assets/voiture-2.jpg" alt="voiture" style="width: 100%" />
+          <h4>Voiture 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+      <div class="column voiture">
+        <div class="content">
+          <img src="./assets/voiture-3.jpg" alt="voiture" style="width: 100%" />
+          <h4>Voiture 3</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+      <div class="column voiture">
+        <div class="content">
+          <img src="./assets/voiture-4.jpg" alt="voiture" style="width: 100%" />
+          <h4>Voiture 4</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+
+      <div class="column moto">
+        <div class="content">
+          <img src="./assets/moto-1.jpg" alt="moto" style="width: 100%" />
+          <h4>Moto 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+      <div class="column moto">
+        <div class="content">
+          <img src="./assets/moto-2.jpg" alt="moto" style="width: 100%" />
+          <h4>Moto 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+      <div class="column moto">
+        <div class="content">
+          <img src="./assets/moto-3.jpg" alt="moto" style="width: 100%" />
+          <h4>Moto 3</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+            consequuntur laboriosam! Laborum iusto maxime nemo impedit placeat
+            aut, accusantium laboriosam expedita voluptatibus minus ea neque
+            consequatur vero sapiente, atque doloremque?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
